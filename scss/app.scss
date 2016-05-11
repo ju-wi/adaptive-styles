@@ -1,11 +1,10 @@
-
 // Vars
+@import 'variables';
 
 // Layout and base
 
 // Components
-@import 'variables';
 @import 'typography';
-@import 'buttons';
-@import 'forms';
-@import 'inputs';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/inputs';

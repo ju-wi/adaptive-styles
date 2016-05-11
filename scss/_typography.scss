@@ -2,22 +2,26 @@
 	font-family: $body-font;
 	font-size: $body-font-size;
 	font-weight: $body-font-weight;
+	color: $font-color-dark;
 }
 
 @mixin h1-font() {
 	font-family: $h1-font;
 	font-size: $h1-font-size;
 	font-weight: $h1-font-weight;
+	color: $font-color-dark;
 }
 
 @mixin h2-font() {
 	font-family: $h2-font;
 	font-size: $h2-font-size;
 	font-weight: $h2-font-weight;
+	color: $font-color-dark;
 }
 
 @mixin h3-font() {
 	font-family: $h3-font;
 	font-size: $h3-font-size;
 	font-weight: $h3-font-weight;
+	color: $font-color-dark;
 }

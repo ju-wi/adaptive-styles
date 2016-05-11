@@ -1,0 +1,24 @@
+{
+  "name": "adaptive-styles",
+  "version": "1.0.0",
+  "description": "Styleguides for Adaptive Media",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ju-wi/adaptive-styles.git"
+  },
+  "author": "Julius Widerberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ju-wi/adaptive-styles/issues"
+  },
+  "homepage": "https://github.com/ju-wi/adaptive-styles#readme"
+}
