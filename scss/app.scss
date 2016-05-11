@@ -1,10 +1,11 @@
-// Vars
-@import 'variables';
-
-// Layout and base
+// Includes
+@import 'includes/variables';
+@import 'includes/mixins';
 
 // Components
-@import 'typography';
 @import 'components/buttons';
 @import 'components/forms';
 @import 'components/inputs';
+
+// Layout and base
+@import 'base';
