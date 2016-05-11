@@ -1,0 +1,277 @@
+@import 'limbo';
+
+body {
+	@include body-font()
+}
+
+h1 {
+	@include h1-font()
+}
+
+h2 {
+	@include h2-font()
+}
+
+h3 {
+	@include h3-font()
+}
+
+section {
+	/*border-bottom: 2px solid #999;*/
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+	overflow: hidden;
+	
+	
+	h2 {
+	padding-bottom: 1rem;
+	}
+}
+
+.nine section:nth-of-type(n+3) {
+	margin-top: 25px;
+	padding-top: 20px;
+}
+
+
+.sg--title {
+	text-transform: uppercase;
+	font-size: 3rem;
+	letter-spacing: .2rem;
+	font-weight: 600;
+	border-bottom: 1px solid #333;
+}
+
+.sg--small-title {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	letter-spacing: .2rem;
+	font-weight: 600;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sg--example-label {
+	background-color: #d9d9d9;
+	color: #000;
+	font-size: 20px;
+	padding: 10px 30px;	
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.example {
+	border: 1px solid #d9d9d9;
+	padding: 0px 30px 30px 30px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.sg--type-label {
+/*	border-bottom: 1px solid #08BEA3;*/
+	padding-bottom: 5px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	margin-left: -30px;
+	
+}
+
+.sg--type-label span {
+	background-color: #08BEA3;
+	font-size: 14px;
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.nav a {
+	color: #08BEA3;
+	text-decoration: none;
+}
+
+.nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	letter-spacing: .2rem;
+	font-weight: 600;
+	
+	ul {
+		font-size: 1.1rem;
+		padding-left: 10px;
+		border-left: 1px solid #d1d1d1;
+		
+		a {
+			color: #000;
+		}
+	
+	}
+	
+}
+
+.jumbotron {
+	background-color: #08BEA3;
+	padding-top: 60px;
+	
+	h1 {
+		font-size: 60px;
+		color:#fff;
+	}
+}
+
+
+/*----- Sidebar -----*/
+
+.nav {
+	margin-top: 45px;
+}
+
+.sidebar {
+	position: fixed;
+	overflow: hi;
+}
+
+/*----- Logo -----*/
+
+.logo img {
+	max-width: 6rem;
+}
+
+
+/*----- Colors -----*/
+
+#colors {
+	padding-bottom: 60px;
+}
+
+.color--block {
+	height: 100px;
+	width: 100px;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 45px;
+	float: left;
+}
+
+.primary-colors {
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+.secondary-colors {
+	margin-top: 15px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+.primary-color--1 {
+	background-color: $primary-color-1;
+	
+	&:before {
+		content: "#{$primary-color-1}";
+		display: block;
+		margin-top: 110px;
+		margin-left: 16px;
+		/*position: absolute;*/
+		/*top: 150px;*/
+	}
+}
+
+.primary-color--2 {
+	background-color: $primary-color-2;
+	
+	&:before {
+		content: "#{$primary-color-2}";
+		display: block;
+		margin-top: 110px;
+		margin-left: 16px;
+	}
+}
+
+.primary-color--3 {
+	background-color: $primary-color-3;
+	
+	&:before {
+		content: "#{$primary-color-3}";
+		display: block;
+		margin-top: 110px;
+		margin-left: 17px;
+	}
+}
+
+.primary-color--4 {
+	background-color: $primary-color-4;
+	
+	&:before {
+		content: "#{$primary-color-4}";
+		display: block;
+		margin-top: 110px;
+		margin-left: 16px;
+	}
+}
+
+.primary-color--5 {
+	background-color: $primary-color-5;
+	
+	&:before {
+		content: "#{$primary-color-5}";
+		display: block;
+		margin-top: 110px;
+		margin-left: 16px;
+	}
+}
+
+.primary-color--6 {
+	background-color: $primary-color-6;
+	
+	&:before {
+		content: "#{$primary-color-6}";
+		display: block;
+		margin-top: 110px;
+		margin-left: 16px;
+	}
+}
+
+.secondary-color--1 {
+	background-color: $secondary-color-1;
+	
+	&:before {
+		content: "#{$secondary-color-1}";
+		display: block;
+		margin-top: 110px;
+		margin-left: 16px;
+	}
+}
+
+.secondary-color--2 {
+	background-color: $secondary-color-2;
+	
+	&:before {
+		content: "#{$secondary-color-2}";
+		display: block;
+		margin-top: 110px;
+		margin-left: 16px;
+	}
+}
+
+.secondary-color--3 {
+	background-color: $secondary-color-3;
+	
+	&:before {
+		content: "#{$secondary-color-3}";
+		display: block;
+		margin-top: 110px;
+		margin-left: 16px;
+	}
+}
+
+/*----- Visual Elements -----*/
+
+.button-sizes {
+	margin-bottom: 30px;
+}
+
+.button-styles {
+	margin-bottom: 30px;
+}

@@ -1,0 +1,37 @@
+// Checkboxes and radios
+
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+
+  label {
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+
+    // When there's no labels, don't position the input.
+    input:only-child {
+      position: static;
+    }
+  }
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  &:disabled,
+  &.disabled {
+    cursor: not-allowed;
+  }
+}
+
+// These classes are used on elements with <label> descendants
+.radio,
+.checkbox {
+  &.disabled {
+    label {
+      cursor: not-allowed;
+    }
+  }
+}
